@@ -29,6 +29,4 @@ screen=$"("$TEMPB" F | "$POWER" W)"
 
 echo "$screen"
 
-#ipmitool delloem lcd set mode userdefined '$TEMPB F | $POWER W'
-
 ipmitool delloem lcd set mode userdefined "$screen"
